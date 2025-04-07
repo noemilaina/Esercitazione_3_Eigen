@@ -2,6 +2,8 @@
 #include "Eigen/Eigen"
 #include <cmath>
 
+using namespace Eigen;
+
 VectorXd x_true(2);
 
 double RelativeError(const Eigen::VectorXd& x_computed, const Eigen::VectorXd& x_true) {
